@@ -1,7 +1,7 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #ghostwhite;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -9,18 +9,19 @@
 .header {
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 20px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	background-color: black;
+	font-family: 'Times New Roman', serif;
+	background-color: #F991CC;
+    color: white;
 }
 h4 {
 	font-style: italic;
-	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
 }
 h3 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 
@@ -35,7 +36,23 @@ h3 {
  	margin-top: 30px;
  }
  iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
+ 	min-width: 500%;
+ 	margin-right: 100px;
  }
+}
+
+img {
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+img {
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
